@@ -31,6 +31,10 @@
                                     <segue destination="BV1-FR-VrT" kind="show" id="Ijy-qB-xg4"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="watasinosekai" translatesAutoresizingMaskIntoConstraints="NO" id="K9v-IO-yvh">
+                                <rect key="frame" x="188" y="57" width="1074" height="675"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="BHq-k6-9Zj"/>
@@ -38,7 +42,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PNJ-R8-Bj2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2" y="-763"/>
+            <point key="canvasLocation" x="1.7569546120058563" y="-763.4765625"/>
         </scene>
         <!--Game View Controller-->
         <scene sceneID="tXr-a1-R10">
@@ -55,4 +59,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="watasinosekai" width="1024" height="1024"/>
+    </resources>
 </document>
