@@ -8,17 +8,12 @@
 
 import SpriteKit
 import GameplayKit
+import AVFoundation
 
-class GameScene: SKScene {
-  
+class GameScene: SKScene,AVAudioPlayerDelegate {
     var hero: SKSpriteNode!
     var gakkou: SKSpriteNode!
     var syuonna: SKSpriteNode!
-import AVFoundation
-
-
-class GameScene: SKScene,AVAudioPlayerDelegate {
-    
     var audioPlayer: AVAudioPlayer!
     func playSound(name: String) {
         guard let path = Bundle.main.path(forResource: name, ofType: "mp3") else {
