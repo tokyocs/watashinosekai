@@ -8,6 +8,12 @@
 
 import SpriteKit
 import GameplayKit
+
+class GameScene: SKScene {
+  
+    var hero: SKSpriteNode!
+    var gakkou: SKSpriteNode!
+    var syuonna: SKSpriteNode!
 import AVFoundation
 
 
@@ -53,6 +59,23 @@ class GameScene: SKScene,AVAudioPlayerDelegate {
     }
     
     override func didMove(to view: SKView) {
+    
+        self.hero = SKSpriteNode(imageNamed: "syuototko")
+        self.hero.position = CGPoint(x:0,y:-200)
+        self.hero.xScale = 0.09
+        self.hero.yScale = 0.09
+        addChild(self.hero)
+        
+        self.gakkou = SKSpriteNode(imageNamed: "gakkou")
+        self.gakkou.position = CGPoint(x:10,y:-0)
+        self.gakkou.xScale = 0.4
+        self.gakkou.yScale = 0.4
+        addChild(self.gakkou)
+        self.syuonna = SKSpriteNode(imageNamed: "syuonna")
+        self.syuonna.position = CGPoint(x:12,y:-198)
+        self.syuonna.xScale = 0.07
+        self.syuonna.yScale = 0.07
+        addChild(self.syuonna)
       playBGM(name: "Summer_Beach_Ambience")
         // Get label node from scene and store it for use later
        
