@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65DD934B22E010B0008FB7AB /* Summer_Beach_Ambience.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65DD934A22E010AF008FB7AB /* Summer_Beach_Ambience.mp3 */; };
 		9434ABFD22DD731B00A2AF41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9434ABFC22DD731B00A2AF41 /* AppDelegate.swift */; };
 		9434ABFF22DD731B00A2AF41 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9434ABFE22DD731B00A2AF41 /* GameScene.sks */; };
 		9434AC0122DD731B00A2AF41 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9434AC0022DD731B00A2AF41 /* Actions.sks */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65DD934A22E010AF008FB7AB /* Summer_Beach_Ambience.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Summer_Beach_Ambience.mp3; sourceTree = "<group>"; };
 		9434ABF922DD731B00A2AF41 /* watashinosekai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watashinosekai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9434ABFC22DD731B00A2AF41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9434ABFE22DD731B00A2AF41 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				9434ABFC22DD731B00A2AF41 /* AppDelegate.swift */,
 				9434ABFE22DD731B00A2AF41 /* GameScene.sks */,
+				65DD934A22E010AF008FB7AB /* Summer_Beach_Ambience.mp3 */,
 				9434AC0022DD731B00A2AF41 /* Actions.sks */,
 				9434AC0222DD731B00A2AF41 /* GameScene.swift */,
 				9434AC0422DD731B00A2AF41 /* GameViewController.swift */,
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9434AC0822DD731B00A2AF41 /* Main.storyboard in Resources */,
+				65DD934B22E010B0008FB7AB /* Summer_Beach_Ambience.mp3 in Resources */,
 				9434ABFF22DD731B00A2AF41 /* GameScene.sks in Resources */,
 				9434AC0A22DD732100A2AF41 /* Assets.xcassets in Resources */,
 				9434AC0D22DD732100A2AF41 /* LaunchScreen.storyboard in Resources */,
