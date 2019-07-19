@@ -70,7 +70,7 @@ class GameScene: SKScene,AVAudioPlayerDelegate {
         self.gakkou.position = CGPoint(x:10,y:-0)
         self.gakkou.zPosition = 0
         self.gakkou.xScale = 0.4
-        self.gakkou.yScale = 0.4
+        self.gakkou.yScale = 0.44
         addChild(self.gakkou)
         
         self.syuonna = SKSpriteNode(imageNamed: "syuonna")
@@ -81,28 +81,28 @@ class GameScene: SKScene,AVAudioPlayerDelegate {
         addChild(self.syuonna)
         
         self.uebotann = SKSpriteNode(imageNamed: "uebotann")
-        self.uebotann.position = CGPoint(x:100,y:100)
+        self.uebotann.position = CGPoint(x:250,y:-55)
         self.uebotann.zPosition = 3
         self.uebotann.xScale = 0.3
         self.uebotann.yScale = 0.3
         addChild(self.uebotann)
         
         self.sitabotnn = SKSpriteNode(imageNamed: "sitabotann")
-        self.sitabotnn.position = CGPoint(x:100,y:-100)
+        self.sitabotnn.position = CGPoint(x:250,y:-190)
         self.sitabotnn.zPosition = 3
         self.sitabotnn.xScale = 0.3
         self.sitabotnn.yScale = 0.3
         addChild(self.sitabotnn)
         
         self.migibotann = SKSpriteNode(imageNamed: "migibotann")
-        self.migibotann.position = CGPoint(x:-100,y:100)
+        self.migibotann.position = CGPoint(x:320,y:-121)
         self.migibotann.zPosition = 3
         self.migibotann.xScale = 0.3
         self.migibotann.yScale = 0.3
         addChild(self.migibotann)
         
         self.hidaribotann = SKSpriteNode(imageNamed:"hidaribotann")
-        self.hidaribotann.position = CGPoint(x:-100,y:-100)
+        self.hidaribotann.position = CGPoint(x:180,y:-121)
         self.hidaribotann.zPosition = 3
         self.hidaribotann.xScale = 0.3
         self.hidaribotann.yScale = 0.3
